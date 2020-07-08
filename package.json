@@ -1,7 +1,7 @@
 {
   "name": "smart-coin-calc",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "SG Veteris - Proje",
   "author": "ilyasozgoren <iozgoren@gmail.com>",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "vue": "^2.5.2",
+    "vue-credit-card-validation": "^0.1.9",
     "vue-moment": "^4.1.0"
   },
   "devDependencies": {
@@ -20,7 +21,7 @@
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "babel-loader": "^7.1.1",
+    "babel-loader": "^7.1.5",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-plugin-transform-vue-jsx": "^3.5.0",
