@@ -1,12 +1,17 @@
 # smart-coin-calc
 
-> A Vue.js project
+> SG Veteris - Proje
 
 ## Build Setup
 
 ``` bash
 # install dependencies
 npm install
+
+npm install axios
+npm install moment
+npm install vue-credit-card-validation
+
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -18,4 +23,4 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
