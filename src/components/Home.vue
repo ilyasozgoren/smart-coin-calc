@@ -11,11 +11,6 @@
                 </span>
                 Son Güncelleme: {{timestamp}}
             </div>
-          <!--<div class="col-4 text-right">
-              <div class="price-area" v-if="timerCount>0">
-                  <span v-if="currValue>0">Kalan Süre : {{timerCount}}</span>
-              </div>
-          </div>-->
       </div>
       <div class="row">
           <div class="col-12">
@@ -128,7 +123,6 @@ export default {
 
     this.interval = setInterval(() => {
       if (this.showModal === false && this.currValue > 0) {
-
         this.showModal = false
         this.cartItems = { Coin: '', Price: '', Symbol: '' }
         alert('DİKKAT! 10 saniye içinde işlem yapmadığınız için tutar yeniden hesaplanacak!')
